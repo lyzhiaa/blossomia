@@ -18,11 +18,13 @@ body {
     padding: 10px 5px;
     background-color: #ffffff;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 
     & img {
       display: block;
       margin: 0 15px;
+      
     }
 
     & .navbar {
@@ -68,6 +70,8 @@ body {
         justify-content: center;
         padding-bottom: 20px;
 
+        
+
         & .title {
           display: flex;
           gap: 20px;
@@ -101,6 +105,13 @@ body {
         & .btn:hover {
           color: #333;
           background-color: #ffd8be;
+        }
+      }
+
+      & .banner-image {
+        & img {
+          box-shadow: #f598b7 0px 0px 7px 3px;
+        /* animation: funkyShadow  10s infinite ease-in-out; */
         }
       }
     }
