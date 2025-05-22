@@ -33,12 +33,12 @@ body {
         display: flex;
         align-items: center;
         font-size: 16px;
+        
 
         & li {
           list-style: none;
           padding: 0 25px;
         }
-
         & a {
           color: #333333;
           text-decoration: none;
@@ -46,6 +46,8 @@ body {
 
         & a:hover {
           color: #e91e63;
+          /* text-underline-offset: 4px;
+          text-decoration: underline; */
         }
       }
     }
